@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Truck
+comment0.text=\r\n\ This\ truck\ extends\ vehicle\ class\ as\ well\r\n\ and\ it\ correctly\ uses\ a\ constructor\ for\r\n\ future\ formating.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/28/2018\r\n
+comment1.params=name\ cost
+comment1.target=Truck(java.lang.String,\ double)
+numComments=2
