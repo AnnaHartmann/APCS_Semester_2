@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MyScience2
+comment0.text=\r\n\ This\ is\ MyScience2.java\ and\ it\ extends\ the\ Homework2\ \r\n\ class\ and\ implements\ the\ doReading()\ method\ from\ Processing\!\r\n\ This\ class\ subtracts\ 3\ pages\ from\ the\ reading\ count\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/26/2018\r\n
+comment1.params=
+comment1.target=MyScience2()
+comment2.params=p
+comment2.target=void\ createAssignment(int)
+comment3.params=
+comment3.target=void\ doReading()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

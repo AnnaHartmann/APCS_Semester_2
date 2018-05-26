@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MyMath2
+comment0.text=\r\n\ This\ is\ the\ MyMath\ code,\ this\ extends\ Homework2\r\n\ however\ this\ code\ does\ implements\ the\ doReading()\ method.\ \r\n\ It\ also\ subtracts\ 2\ pages\ from\ the\ current\ page\ count.\ \ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/26/2018\r\n
+comment1.params=
+comment1.target=MyMath2()
+comment2.params=p
+comment2.target=void\ createAssignment(int)
+comment3.params=
+comment3.target=void\ doReading()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
