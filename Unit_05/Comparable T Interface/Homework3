@@ -1,0 +1,44 @@
+/**
+ * Homework3 class with which is the base of all My[Insert class name].java code
+ * This code also creates the int variable for pages read so that way the 
+ * other code can correctly use the compareTo() function. 
+ * 
+ * @author Annabel Hartmann
+ * @version 2/28/2018
+ */
+
+public abstract class Homework3 implements Comparable<Homework3> {
+	
+	public int pagesRead = 0; //Wanted to add the int variable so that way it is easier for me to compare the pages read.
+	private String typeHw = "null";
+	
+	Homework3() {
+	}
+	
+	public int getReadPages() {
+		return pagesRead;
+	}
+	
+	public void setReadPages(int pages) {
+		this.pagesRead = pages;
+	}
+	
+	public String getHwType()  {
+		return typeHw;
+	}
+	
+	public void setHwType(String typeHomework) {
+		this.typeHw = typeHomework;
+	}
+	
+	public abstract void createAssignment(int p);
+	
+	public int compareTo(Homework3 a) { //created the abstract compareTo() function. 
+    	if(pagesRead < a.pagesRead) {
+    		return 1;
+    	} else if(pagesRead == a.pagesRead){
+    		return 0;
+    	}
+    	else return -1;
+    } 
+}
