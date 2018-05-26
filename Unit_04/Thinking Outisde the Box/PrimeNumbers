@@ -1,0 +1,38 @@
+/**
+ * Asks a user for an input that will be computed
+ * and print all prime numbers then showing how many 
+ * prime numbers that input has.
+ * 
+ * @author Annabel Hartmann
+ * @version 2/13/18
+ */
+
+import java.util.Scanner;
+
+public class PrimeNumbers {
+	static Scanner s = new Scanner(System.in);
+	
+    public static void main(String args[]) {
+      System.out.println("Good day mate! Throw me that ol' number that you want me to find the prime numbers for! ");
+      System.out.print(" > ");
+      int upperLimit = s.nextInt();
+      int numOfPrime = 0;
+      
+      for(int prime = 2; prime<=upperLimit; prime++) {
+          if(isPrime(prime)) {
+              System.out.println(prime);
+              numOfPrime++;
+          }
+      }
+      System.out.println("Arighty mate! All done! The number " + upperLimit + " has " + numOfPrime + " prime numbers!");
+    }
+    
+    public static boolean isPrime(int number) {
+        for(int i = 2; i < number; i++) {
+           if(number % i == 0) {
+               return false; 
+           }
+        }
+        return true; 
+    }
+}
