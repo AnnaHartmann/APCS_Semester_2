@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyMath
+comment0.text=\r\n\ This\ code\ of\ java\ is\ the\ homework\ specific\ code\ for\ java\ that\ \r\n\ extends\ from\ the\ homework.java\ code.\ It\ has\ no\ arguments\ has\ \r\n\ the\ variable\ type\ p\ and\ sets\ homework\ type\ to\ Math.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/22/2018\r\n
+comment1.params=
+comment1.target=MyMath()
+comment2.params=p
+comment2.target=void\ createAssignment(int)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

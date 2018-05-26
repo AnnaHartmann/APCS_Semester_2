@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Homework
+comment0.text=\r\n\ This\ code\ is\ the\ homework\ code\ that\ is\ the\ base\ of\ getting\ the\ type\ of\ homework,\r\n\ get\ and\ set\ the\ pages\ that\ must\ be\ read\ and\ creating\ the\ assignment\ so\ there\ can\ \r\n\ be\ an\ assignment\ in\ the\ code.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/22/2018\r\n
+comment1.params=
+comment1.target=Homework()
+comment2.params=
+comment2.target=int\ getReadPages()
+comment3.params=pagesRead
+comment3.target=void\ setReadPages(int)
+comment4.params=
+comment4.target=java.lang.String\ getHwType()
+comment5.params=typeHomework
+comment5.target=void\ setHwType(java.lang.String)
+comment6.params=p
+comment6.target=void\ createAssignment(int)
+numComments=7
