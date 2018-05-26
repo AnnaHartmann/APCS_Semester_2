@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Homework3
+comment0.text=\r\n\ Homework3\ class\ with\ which\ is\ the\ base\ of\ all\ My[Insert\ class\ name].java\ code\r\n\ This\ code\ also\ creates\ the\ int\ variable\ for\ pages\ read\ so\ that\ way\ the\ \r\n\ other\ code\ can\ correctly\ use\ the\ compareTo()\ function.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/28/2018\r\n
+comment1.params=
+comment1.target=Homework3()
+comment2.params=
+comment2.target=int\ getReadPages()
+comment3.params=pages
+comment3.target=void\ setReadPages(int)
+comment4.params=
+comment4.target=java.lang.String\ getHwType()
+comment5.params=typeHomework
+comment5.target=void\ setHwType(java.lang.String)
+comment6.params=p
+comment6.target=void\ createAssignment(int)
+comment7.params=a
+comment7.target=int\ compareTo(Homework3)
+numComments=8

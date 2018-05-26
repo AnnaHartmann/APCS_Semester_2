@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MyEnglish3
+comment0.text=\r\n\ This\ is\ MyEnglish3.java\ and\ it\ extends\ the\ Homework3\r\n\ class\ and\ uses\ the\ code\ already\ in\ Homework3.\ This\r\n\ code\ also\ subtracts\ 1\ page\ from\ the\ page\ count.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/28/2018\r\n
+comment1.params=
+comment1.target=MyEnglish3()
+comment2.params=p
+comment2.target=void\ createAssignment(int)
+comment3.params=
+comment3.target=int\ doReading()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

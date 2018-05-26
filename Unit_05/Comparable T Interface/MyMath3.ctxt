@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MyMath3
+comment0.text=\r\n\ This\ is\ the\ MyMath3\ code,\ this\ extends\ Homework3\r\n\ due\ to\ the\ fact\ that\ it\ extends\ homework3\ I\ don't\r\n\ have\ to\ repeat\ code\ and\ it\ also\ modifies\ the\ \r\n\ doReading()\ method\ so\ that\ way\ I\ can\ use\ it\ easily\ in\ it's\ output\!\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/28/2018\r\n
+comment1.params=
+comment1.target=MyMath3()
+comment2.params=p
+comment2.target=void\ createAssignment(int)
+comment3.params=
+comment3.target=int\ doReading()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
