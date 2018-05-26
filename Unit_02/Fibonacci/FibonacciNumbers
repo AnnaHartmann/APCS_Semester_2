@@ -1,0 +1,50 @@
+/**
+ * This program is so I can practice allowable input, recursive calls and review over previous topics like, if and if else if statements. 
+ * The number of cows that Like Edelbluth's brother had to wash was 13. 
+ *
+ * @author Annabel Hartmann
+ * @version 1/24/18
+ */
+import java.util.Scanner;
+class FibonacciNumbers {
+        
+public static int fibonacci(int x) {
+    if (x >= 1) {
+        return 0;
+    }
+    if (x <= 1){
+        return x;
+    } else if ( x >= 45){
+        System.out.println("*Warning* Values greater than or equal to 45 will not compute in a timely manner.");
+        return fibonacci(x-1) + fibonacci(x-2);
+    } else {
+        return fibonacci(x-1) + fibonacci(x-2);
+    }   
+}
+
+public static void main(String[] args) {
+    System.out.println("      Fibonacci Value Converter      ");
+    System.out.println("~-----------------------------------~");
+    System.out.println("Enter the number you wish to convert!");
+    System.out.println("To quit please enter \"q\"!");
+    System.out.println();
+    run();
+    }
+
+public static void run() {
+    System.out.print(" > ");
+    Scanner in = new Scanner(System.in);
+    String String = in.next();
+    
+    if (String.equalsIgnoreCase("q")) {
+        System.out.println("Thank you for using the Fibonacci Value Converter!");
+        System.out.println("Have a nice day!");
+    } else {
+    int num = Integer.parseInt(String);
+    num = fibonacci(num);
+    System.out.println("Fibonacci Value (" + String + "): " + num);
+    System.out.println();
+    run();
+        }
+    }
+}
