@@ -1,0 +1,15 @@
+/**
+ * This class extends the 
+ * Vehicle.java and uses
+ * a constructor do define what it needs to.
+ * 
+ * @author Annabel Hartmann
+ * @version 2/28/2018
+ */
+
+public class Car extends Vehicle {
+	
+	public Car(String name, double cost){
+		super(name, cost);
+	}
+}
