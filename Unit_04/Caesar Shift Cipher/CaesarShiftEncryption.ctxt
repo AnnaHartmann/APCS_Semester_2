@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CaesarShiftEncryption
+comment0.text=\r\n\ This\ code\ encrypts\ normal\ English\ text\ into\ encrypted\ Caesar\ Cipher\ text.\r\n\ This\ code\ uses\ characterKey,\ if\ else-if\ statements\ and\ inputString\r\n\ along\ with\ using\ .toLowerCase()\ to\ make\ sure\ the\ conversion\ doesn't\ mix\ up\ any\ letters.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/12/2018\r\n
+comment1.params=
+comment1.target=CaesarShiftEncryption()
+comment2.params=inputString
+comment2.target=java.lang.String\ CaesarConverter(java.lang.String)
+numComments=3
