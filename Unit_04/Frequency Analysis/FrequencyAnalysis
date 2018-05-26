@@ -1,0 +1,81 @@
+/**
+ * This code gets the array list from the necessary code 
+ * after it gets that array list it scans the code and returns
+ * with the frequency of each respective letter.
+ * 
+ * @author Annabel Hartmann
+ * @version 2/15/2018
+ */
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class FrequencyAnalysis {
+	
+	private String filename;
+	public int counter;
+
+	public FrequencyAnalysis(String filename) {
+		this.filename = filename;
+		
+	}
+	
+	//This method gets an arraylist from the plaintext.txt
+	public ArrayList<String> getPlainText() throws IOException {
+	    ArrayList<String> pMessage = new ArrayList<String>();
+	    Scanner inFile = new Scanner(new File(filename));
+		
+	    while(inFile.hasNext()) {
+			pMessage.add(inFile.next() + " ");
+            }
+            inFile.close();
+            return pMessage;
+	}
+	
+	//This method gets an arraylist from the ciphertext.txt
+	public ArrayList<String> getCipherText() throws IOException {
+	    ArrayList<String> cMessage = new ArrayList<String>();
+	    Scanner inFile = new Scanner(new File(filename));
+		
+	    while(inFile.hasNext()) {
+			cMessage.add(inFile.next() + " ");
+            }
+            inFile.close();
+            return cMessage;
+	}
+	
+	//This method gets an frequency from the plaintext.txt
+        public int[] getPFrequency() throws IOException {
+            int[] frequencies = new int[26];
+            ArrayList<String> ptext = getPlainText();
+            
+            for(String s : ptext) {
+                    for(int i = 0; i < s.length(); i++) {
+                    	char letter = Character.toLowerCase(s.charAt(i));
+                    	if(letter >= 'a' && letter <= 'z') {
+                    	
+                            frequencies[letter - 'a']++;
+                    	}
+              }
+            }
+            return frequencies;
+        }
+	
+        //This method gets an frequency from the ciphertext.txt
+        public int[] getCFrequency() throws IOException{
+            int[] frequencies = new int[26];
+            ArrayList<String> ctext = getCipherText();
+            
+            for(String s : ctext){
+                    for(int i = 0; i < s.length(); i++){
+                    	char letter = Character.toLowerCase(s.charAt(i));
+                    	if(letter >= 'a' && letter <= 'z'){
+                    	
+                            frequencies[letter - 'a']++;
+                    	}
+                    }
+            }
+            return frequencies;
+        }
+}
