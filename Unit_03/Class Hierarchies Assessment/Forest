@@ -1,0 +1,18 @@
+/**
+ * This program is to utilize super() functions along with "this." functions and how to add new attributes from prior code.
+ * 
+ * @author Annabel Hartmann
+ * @version 2/1/18
+ */
+public class Forest extends Terrain{
+	private int trees;
+	
+	Forest(int l, int w, int trees){
+		super(l, w);
+		this.trees = trees;
+	}
+	
+	public static void forest(int l, int w, int trees){
+		System.out.print("Welcome to Windhelm! This place is " + l + " X " + w + "! What was that? How many trees does it have? Oh well it has " + trees + " trees!");
+	}
+}
