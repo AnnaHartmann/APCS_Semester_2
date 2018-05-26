@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RecursionTester
+comment0.text=\r\n\ The\ purpose\ of\ this\ program\ is\ to\ practice\ coding\ and\ solving\ piecewise\ functions,\ however\ this\ code\ specifically\ prints\ out\ the\ information\ created\r\n\ in\ the\ recusion\ class\ and\ creates\ a\ userfriendly\ output.\ Along\ with\ a\ nice\ message\ at\ the\ end.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 1/23/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
