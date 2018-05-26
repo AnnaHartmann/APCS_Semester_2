@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RecursivePalindrome
+comment0.text=\r\n\ The\ purpose\ of\ this\ code\ is\ to\ have\ a\ method\ that\ runs\ through\ and\r\n\ tests\ the\ phrase\ thatis\ inputed\ to\ see\ if\ it's\ an\ actual\ palindrome.\ \r\n\ \r\n\r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 1/24/18\r\n
+comment1.params=word
+comment1.target=boolean\ palindromeHelper(java.lang.String)
+numComments=2
