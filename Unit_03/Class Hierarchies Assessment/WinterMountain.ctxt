@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=WinterMountain
+comment0.text=\r\n\ This\ program\ is\ to\ utilize\ super()\ functions\ along\ with\ "this."\ functions\ and\ how\ to\ add\ new\ attributes\ from\ prior\ code.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/1/18\r\n
+comment1.params=l\ w\ mountains\ t
+comment1.target=WinterMountain(int,\ int,\ int,\ double)
+comment2.params=l\ w\ mountains\ t
+comment2.target=void\ winterMT(int,\ int,\ int,\ double)
+numComments=3
