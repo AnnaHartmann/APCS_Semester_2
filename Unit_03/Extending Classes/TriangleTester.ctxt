@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TriangleTester
+comment0.text=\r\n\ This\ program\ is\ to\ format\ the\ triangle,isoscelesright\ and\ equilateral\ codes.\ \r\n\ This\ is\ also\ to\ practice\ polymorph\ functions/methods\r\n\r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 1/31/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=r
+comment2.target=void\ polyMorph(Triangle)
+comment3.params=r
+comment3.target=void\ polyMorph(Equilateral)
+comment4.params=r
+comment4.target=void\ polyMorph(IsoscelesRight)
+numComments=5

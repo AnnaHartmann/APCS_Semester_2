@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TestCube
+comment0.text=\r\n\ This\ code\ is\ to\ practice\ the\ use\ of\ ploymorph\ methods\ and\ functions\ along\ with\ referencing\ the\ Box\ and\ Cube\ code.\ \r\n\r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 1/31/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=r
+comment2.target=void\ polyMorph(Box)
+comment3.params=r
+comment3.target=void\ polyMorph(Cube)
+numComments=4

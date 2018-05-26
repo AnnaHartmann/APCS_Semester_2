@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Cube
+comment0.text=\r\n\ This\ code\ is\ to\ initialize\ variables\ and\ \r\n\r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 1/31/18\r\n
+comment1.params=l\ w\ h
+comment1.target=Cube(int,\ int,\ int)
+numComments=2
