@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HanCipher
+comment0.text=\r\n\ This\ code\ takes\ my\ custom\ cipher\ that\ I\ created\ and\ converts\ the\ alphabet\ to\ the\ new\ and\ improved\r\n\ Han-abet\!\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/13/2018\r\n
+comment1.params=
+comment1.target=HanCipher()
+comment2.params=inputString
+comment2.target=java.lang.String\ HanConverter(java.lang.String)
+numComments=3

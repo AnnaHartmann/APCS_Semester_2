@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HanDecipher
+comment0.text=\r\n\ This\ program\ decrypts\ code\ from\ Han-abet\ to\ the\ normal\ and\ boring\r\n\ alphabet\ to\ decode\ your\ phrase.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 2/13/2018\r\n
+comment1.params=
+comment1.target=HanDecipher()
+comment2.params=inputString
+comment2.target=java.lang.String\ HanConverter(java.lang.String)
+numComments=3
