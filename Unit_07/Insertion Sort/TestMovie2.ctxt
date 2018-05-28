@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TestMovie2
+comment0.text=\r\n\ This\ code\ allows\ for\ the\ overall\ formatting\ of\ the\ Movie2\ variables\ which\ are\ the\ arrays\ within\ this\ code.\r\n\ This\ code\ has\ printMovies,\ sortTitles,\ sortYears,\ sortStudios.\ It's\ formatted\ so\ the\ method\ is\ on\ top\ and\ then\r\n\ main\ args\ being\ at\ the\ bottom.\ It\ does\ seem\ like\ my\ movies\ at\ the\ end\ for\ some\ of\ the\ system.out.print()\ methods\ \r\n\ have\ switched.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/14/18\r\n
+comment1.params=theMovies
+comment1.target=void\ printMovies(Movie2[])
+comment2.params=theMovies\ p
+comment2.target=Movie2[]\ sortTitles(Movie2[],\ int)
+comment3.params=theMovies\ p
+comment3.target=Movie2[]\ sortYears(Movie2[],\ int)
+comment4.params=theMovies\ p
+comment4.target=Movie2[]\ sortStudios(Movie2[],\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

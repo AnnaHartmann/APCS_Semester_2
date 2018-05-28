@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Movie2
+comment0.text=\r\n\ This\ class\ has\ the\ initialized\ variables\ of\ year,\ title\ and\ studio\ with\ their\ appropriate\ variables\r\n\ of\ string\ or\ int.\ There\ is\ also\ the\ toString\ statement\ that\ formats\ it\ to\ be\ title,\ year,\ studio.\ Then\r\n\ I've\ added\ the\ getMethods()\ in\ my\ other\ methods\ that\ deal\ with\ sorting\ in\ TestMovie2.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/14/18\r\n
+comment1.params=y\ t\ s
+comment1.target=Movie2(int,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=
+comment4.target=int\ getYear()
+comment5.params=
+comment5.target=java.lang.String\ getStudio()
+numComments=6
