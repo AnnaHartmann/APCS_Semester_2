@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TestStudent
+comment1.params=list
+comment1.target=void\ printBook(java.util.List)
+comment2.params=list\ previousName\ name
+comment2.target=void\ replaceName(java.util.List,\ java.lang.String,\ java.lang.String)
+comment3.params=list\ studentName\ quizNumber\ quizPercent
+comment3.target=void\ replaceQuiz(java.util.List,\ java.lang.String,\ int,\ int)
+comment4.params=list\ studentName\ newName\ q1\ q2\ q3\ q4\ q5
+comment4.target=void\ replaceStudent(java.util.List,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment5.params=list\ Student\ studentName\ q1\ q2\ q3\ q4\ q5
+comment5.target=void\ insertStudent(java.util.List,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment6.params=list\ deleteName
+comment6.target=void\ deleteStudent(java.util.List,\ java.lang.String)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
