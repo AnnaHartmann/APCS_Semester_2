@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=TestMovie3
+comment0.text=\r\n\ This\ code\ takes\ from\ the\ Movie3\ code\ and\ formats\ the\ code\ along\ with\ ordering\ code\ using\ \r\n\ selection\ sort.\ While\ I\ almost\ mixed\ up\ insertion\ and\ selection\ I\ believe\ that\ I\ did\ do\ it\ right\r\n\ since\ well\ the\ code\ prints\ correctly\!\ I\ have\ the\ appropriate\ methods\ (printMovies(),\ sortTitles(),\r\n\ sortYears(),\ sortStudios()).\ In\ these\ methods\ I\ use\ if\ Else\ if\ statements\ and\ added\ an\ extra\r\n\ else\ statement\ just\ in\ case\ I\ had\ any\ bugs\ or\ errors\ in\ my\ main\ method.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/16/18\r\n
+comment1.params=myMovie
+comment1.target=void\ printMovies(Movie3[])
+comment2.params=myMovies\ p
+comment2.target=Movie3[]\ sortTitles(Movie3[],\ int)
+comment3.params=myMovies\ p
+comment3.target=Movie3[]\ sortYears(Movie3[],\ int)
+comment4.params=myMovies\ p
+comment4.target=Movie3[]\ sortStudios(Movie3[],\ int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
