@@ -1,0 +1,39 @@
+/**
+ * This class has the initialized variables of year, title and studio with their appropriate variables
+ * of string or int. There is also the toString statement that formats it to be title, year, studio. Then
+ * I've added the getMethods() in my other methods that deal with sorting in TestMovie2.
+ * 
+ * @author Annabel Hartmann
+ * @version 3/14/18
+ */
+
+public class Movie2 {
+	
+	//creates instance variables
+	private int year; 
+	private String title;
+	private String studio;
+	
+	public Movie2( int y, String t, String s) { //initializes instance variables 
+		this.year = y;
+		this.title = t;
+		this.studio = s;
+	}
+	
+	public String toString() { //formats the instance variables specifically
+        return title + ", " + year + ", " + studio;
+    }
+	
+	//included getTitle, getYear and getStudio for easier use of sortMethods() (i.e. sortTitles, sortYears, sortStudios)
+	public String getTitle() {
+        return title;
+    }
+	
+    public int getYear() {
+        return year;
+    }
+    
+    public String getStudio() {
+        return studio;
+    }
+}
