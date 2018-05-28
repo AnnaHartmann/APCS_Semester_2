@@ -1,0 +1,37 @@
+/**
+ * This code is the same as what was created in Unit 2 Lesson 7. 
+ * 
+ * @author Annabel Hartmann
+ * @version 3/19/18
+ */
+
+public class Movie4 {
+    
+    //creates instance variables
+    private int year; 
+    private String title;
+    private String studio;
+    
+    public Movie4( int y, String t, String s) { //initializes instance variables 
+        this.year = y;
+        this.title = t;
+        this.studio = s;
+    }
+    
+    public String toString() { //formats the instance variables specifically
+        return title + ", " + year + ", " + studio;
+    }
+    
+    //included getTitle, getYear and getStudio for easier use of sortMethods() (i.e. sortTitles, sortYears, sortStudios)
+    public String getTitle() {
+        return title;
+    }
+    
+    public int getYear() {
+        return year;
+    }
+    
+    public String getStudio() {
+        return studio;
+    }
+}
