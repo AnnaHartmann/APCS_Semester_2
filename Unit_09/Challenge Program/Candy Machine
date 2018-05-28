@@ -1,0 +1,32 @@
+/**
+ * This code formats the code from CashRegister.java
+ * and Dispenser.java. It outputs what would happen 
+ * if the person did or didn't have enough money. It
+ * also creates it so that it has the methods main() 
+ * and sellProduct().
+ * 
+ * @author Annabel Hartmann
+ * @version 4/10/2018
+ * 
+ */
+
+public class CandyMachine {
+	
+    public static void main(String[] args) {
+   
+    	System.out.println("Welcome to Han's Candy Store! \n");
+    	
+        Dispenser dispense = new Dispenser(100,50);
+        CashRegister cashR = new CashRegister(75);
+        sellProduct(dispense,cashR);
+    }
+    
+    public static void sellProduct(Dispenser d, CashRegister c) {
+    	
+        if(d.getCount() != 0 && ((double)d.getProductCost() / (double)c.cashInPocket()) > 0) {
+            System.out.println("Enjoy the delicious candy!");
+        } else {
+            System.out.println("I'm sorry but you do not have enough candy to get a piece of candy. :(");
+        }
+    }
+}
