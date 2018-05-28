@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Dispenser
+comment0.text=\r\n\ This\ class\ stores\ the\ methods;\r\n\ Dispenser(),\ Dispenser(int\ numOfItem,\ int\ costOfItem),\r\n\ getCount(),\ getProductCost()\ and\ makeSale().\ It\ also\ holds\r\n\ the\ instance\ variables\ of\ numOfItem\ and\ cost\ and\ it\ makes\ sure\r\n\ that\ the\ possible\ inputed\ options\ for\ the\ two\ variables\ are\ valid\r\n\ or\ they\ throw\ an\ argument\ exception.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/10/2018\r\n\ \r\n
+comment1.params=
+comment1.target=Dispenser()
+comment2.params=numOfItem\ costOfItem
+comment2.target=Dispenser(int,\ int)
+comment3.params=
+comment3.target=int\ getCount()
+comment4.params=
+comment4.target=int\ getProductCost()
+comment5.params=
+comment5.target=void\ makeSale()
+numComments=6

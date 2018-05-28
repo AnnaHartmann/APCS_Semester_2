@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CandyMachine
+comment0.text=\r\n\ This\ code\ formats\ the\ code\ from\ CashRegister.java\r\n\ and\ Dispenser.java.\ It\ outputs\ what\ would\ happen\ \r\n\ if\ the\ person\ did\ or\ didn't\ have\ enough\ money.\ It\r\n\ also\ creates\ it\ so\ that\ it\ has\ the\ methods\ main()\ \r\n\ and\ sellProduct().\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/10/2018\r\n\ \r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=d\ c
+comment2.target=void\ sellProduct(Dispenser,\ CashRegister)
+numComments=3
