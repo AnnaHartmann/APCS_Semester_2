@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CashRegister
+comment0.text=\r\n\ This\ code\ is\ the\ cash\ register\ for\ the\ code.\r\n\ It\ checks\ the\ amount\ of\ money\ in\ the\ register,\ on\ the\ person\ \r\n\ and\ how\ much\ the\ person\ is\ giving.\ I\ added\ cashInPocket\ to\ \r\n\ more\ easily\ create\ the\ algorithm\ in\ candy\ machine.\ This\ code\r\n\ also\ makes\ sure\ that\ the\ user\ has\ money,\ isn't\ adding\ 0\ dollars\r\n\ or\ removing\ money\ from\ the\ cash\ register.\ \r\n\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/10/2018\r\n\ \r\n
+comment1.params=
+comment1.target=CashRegister()
+comment2.params=cashAmount
+comment2.target=CashRegister(int)
+comment3.params=cashAmount
+comment3.target=void\ acceptAmount(int)
+comment4.params=
+comment4.target=int\ cashInPocket()
+numComments=5
