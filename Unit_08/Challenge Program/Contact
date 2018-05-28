@@ -1,0 +1,74 @@
+/**
+ * This is the base code for TestContact.java 
+ * this code contains the instance variables 
+ * along with the getter and setter methods of
+ * each variable. (I.E. getName, getRelation,
+ * setName, setRelation, etc.)
+ * 
+ * @author Annabel Hartmann
+ * @version 4/3/18
+ */
+
+public class Contact {
+	
+	String name, relation, bday, phone, email; //instance variables 
+	
+	public Contact(String name, String relation, String birthday, String phone, String email) { //initialized instance variables
+		
+		super();
+		this.name = name;
+		this.relation = relation;
+		this.bday = birthday;
+		this.phone = phone;
+		this.email = email;
+	}
+	
+	//Start of getter methods
+	public String getName()	{
+		return name;
+	}
+	
+	public String getRelation() {
+		return relation;
+	}
+	
+	public String getBday()	{
+		return bday;
+	}
+	
+	public String getPhone() {
+		return phone;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	//End of getter methods
+	
+	//Start of setter methods
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setRelation(String relation) {
+		this.relation = relation;
+	}
+	
+	public void setBday(String birthday) {
+		this.bday = birthday;
+	}
+	
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	//End of setter methods
+	
+	@Override
+	public String toString() {
+		return String.format("%-16s%-12s%-12s%-18s%-18s", name, relation, bday, phone, email);
+	}
+}
