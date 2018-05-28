@@ -1,0 +1,104 @@
+/**
+ * This code has the formulas and formatting of the information from the 
+ * TestProgStudentData.java. This has the appropriate methods;
+ * studentData(), getFirstName(), getLastName(), getTestScores(), 
+ * setFirstName(), setLastName(), setTestScores(), setGrade(), 
+ * courseGrade().
+ * 
+ * @author Annabel Hartmann
+ * @version 4/9/2018
+ */
+
+public class StudentData {
+	
+	double[] testScores;
+	char grade;
+	String firstName;
+	String lastName;
+	
+	public StudentData(String fName, String lName, double[] tScores) {
+		
+		this.firstName = fName;
+		this.lastName = lName;
+		this.testScores = tScores;
+		
+		courseGrade(testScores);
+	}
+	
+	public String getFirstName() { //START getFirstName - gets the first name from TestProgStudentData
+		return firstName;
+	}//END getFirstName
+	
+	public String getLastName() { //START getLastName - gets the last name from TestProgStudentData
+		return lastName;
+	}//END getLastName
+	
+	public double[] getTestScores() {//START getTestScores - gets the test scores from TestProgStudentData
+		return testScores;
+	}//END getTestScores
+	
+	public char getGrade() { //START getGrade - gets the grade from TestProgStudentData
+		return grade;
+	}//END getGrade
+	
+	public void setFirstName(String firstName) { //START setFirstName - sets the first name 
+		this.firstName = firstName;
+	}//End setFirstName
+	
+	public void setLastName(String lastName) { //START setLastName - sets the last name 
+		this.lastName = lastName;
+	}//END setLastName
+	
+	public void setTestScores(double[] testScores) { //START setTestScores - sets the test scores
+		this.testScores = testScores;
+	} //END setTestScores
+	
+	public void setGrade(char grade) { //START setGrade - sets the grade
+		this.grade = grade;
+	} //END setGrade
+	
+	public void courseGrade(double [] list) { //START courseGrade - Checks first, last name and list length to make sure they aren't empty. Also creates the average course grade!
+		
+		if(firstName == "" || lastName == "") {
+			throw new RuntimeException("Name list cannot be empty");
+		}
+		
+		double total= 0;
+		double average = 0;
+		
+		if(list.length == 0) {
+			throw new RuntimeException("Grade list cannot be empty");
+		} else {
+			
+			for(double x : list) {
+				total+= x;
+			}
+			
+			average = total / list.length ;
+			
+			if(average >= 90) {
+				this.grade = 'A';
+			} else if (average < 90 && average >= 80) {
+				this.grade =  'B';
+			} else if (average < 80 && average >= 70) {
+				this.grade =  'C';
+			} else if (average < 70 && average >= 60) {
+				this.grade =  'D';
+			} else if (average < 60) {
+				this.grade =  'F';
+			}
+		}
+	} //END courseGrade
+
+	@Override
+	public String toString() { //START toString - this formats how the code will be spaced
+		
+		String grades = "";
+		
+		for(double g : testScores) {
+			grades = grades + " " + String.format("%7.2f", g);
+		}
+		
+		return String.format("%s%10s%s%5C", firstName, lastName, grades, grade);
+	}//END toString
+}
