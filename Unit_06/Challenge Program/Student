@@ -1,0 +1,82 @@
+/**
+ * This code is the base code that has
+ * Student, getQuiz, setQuiz and toString
+ * as the class requires. However I added
+ * getName and setName just so that I can
+ * code this in an easier and more organized matter. 
+ * 
+ * @author Annabel Hartmann
+ * @version 3/9/18
+ */
+
+public class Student {
+    private String name;
+    private int qz1, qz2, qz3, qz4, qz5;
+    
+    public Student(String name, int q1, int q2, int q3, int q4, int q5) { //Initialize instance variables for the quizzes
+        this.name = name;
+        this.qz1 = q1;
+        this.qz2 = q2;
+        this.qz3 = q3;
+        this.qz4 = q4;
+        this.qz5 = q5;
+    }
+    
+    public int getQuiz (int quizNum) { //take a quiz and return their instance variable
+        
+        if(quizNum == 1) {      
+            return qz1;
+        
+        } else if(quizNum == 2) {
+            return qz2;
+            
+        } else if(quizNum == 3) {
+            return qz3;
+            
+        } else if(quizNum == 4) {
+            return qz4;
+            
+        } else if(quizNum == 5) {
+            return qz5;
+        }
+        
+        return 0;
+    } 
+ 
+    public void setQuiz (int quizNum, int score) { //sets a quiz to it's specified score
+        
+        if(quizNum == 1) {
+            qz1 = score;
+        
+        } else if(quizNum == 2) {
+            qz2 = score;
+            
+        } else if(quizNum == 3) {
+            qz3 = score;
+            
+        } else if(quizNum == 4) {
+            qz4 = score;
+            
+        }else if(quizNum == 5) {
+            qz5 = score;
+            
+        }else {
+            System.out.println("Error Quiz Does Not Exist");
+        }
+    }
+    
+    public String toString() { //prints things to a string 
+        
+        System.out.printf("  %-15s%7d%7d%7d%7d%7d\n", name, qz1, qz2, qz3, qz4, qz5);
+        
+        return "%15s%7d%7d%7d%7d%7d";
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public void setName(String name) {
+        this.name = name;
+    }
+}
