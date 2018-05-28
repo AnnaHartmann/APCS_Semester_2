@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TestCandidate7
+comment0.text=\r\n\ This\ code\ formats\ the\ candidate\ class\ however\r\n\ uses\ printf\ statements\ and\ arrays.\r\n\ I\ semi\ reorganized\ and\ commented\ on\ code\ as\ needed\r\n\ so\ that\ way\ I\ can\ keep\ everything\ in\ a\ nice\ neat\ manner.\r\n\ This\ code\ adds\ the\ deletion\ methods;\ deleteByLocation()\r\n\ and\ deleteByName();\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/8/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=election\ find
+comment10.target=void\ deleteByName(Candidate[],\ java.lang.String)
+comment2.params=election
+comment2.target=int\ getTotal(Candidate[])
+comment3.params=election
+comment3.target=void\ printVotes(Candidate[])
+comment4.params=election
+comment4.target=void\ printResults(Candidate[])
+comment5.params=election\ find\ replace
+comment5.target=void\ changeName(Candidate[],\ java.lang.String,\ java.lang.String)
+comment6.params=election\ find\ replace
+comment6.target=void\ changeVote(Candidate[],\ int,\ int)
+comment7.params=election\ location\ addName\ addString
+comment7.target=void\ insertPosition(Candidate[],\ int,\ java.lang.String,\ int)
+comment8.params=election\ find\ addName\ addString
+comment8.target=void\ insertCandidate(Candidate[],\ java.lang.String,\ java.lang.String,\ int)
+comment9.params=election\ location
+comment9.target=void\ deleteByLocation(Candidate[],\ int)
+numComments=11
