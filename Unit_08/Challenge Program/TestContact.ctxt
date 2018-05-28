@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=TestContact
+comment0.text=\r\n\ This\ is\ the\ code\ that\ formats\ all\ of\ Contact.Java\r\n\ it\ has\ all\ of\ the\ sequential\ and\ binary\ search\r\n\ methods\ that\ are\ necessary\ of\ this\ code\ and\ prints\r\n\ the\ appropriate\ code\!\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/3/18\r\n
+comment1.params=myContacts
+comment1.target=void\ printContacts(Contact[])
+comment2.params=myContacts\ toFind
+comment2.target=void\ findByName(Contact[],\ java.lang.String)
+comment3.params=myContacts\ toFind
+comment3.target=void\ findByRelation(Contact[],\ java.lang.String)
+comment4.params=myContacts\ toFind
+comment4.target=void\ findByBMonth(Contact[],\ java.lang.String)
+comment5.params=myContacts\ toFind
+comment5.target=void\ findByPhone(Contact[],\ java.lang.String)
+comment6.params=myContacts\ toFind
+comment6.target=void\ findByEmail(Contact[],\ java.lang.String)
+comment7.params=myContacts\ sortType
+comment7.target=void\ sortContacts(Contact[],\ java.lang.String)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
