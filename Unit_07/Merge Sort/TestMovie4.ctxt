@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=TestMovie4
+comment0.text=\r\n\ This\ code\ changes\ the\ typical\ sort\ methods\ from\ selection\ sort\ to\ merge\ sort\ and\ also\ adds\ the\ \r\n\ merge\ code\ into\ the\ code\ (mergeTitles,\ mergeYears,\ mergeStudios).\ It\ formats\ what\ was\ created\ \r\n\ in\ the\ movie4\ code\ and\ prints\ out\ neatly\ and\ properly.\ Comments\ showing\ what\ are\ merge\ sort\ methods\r\n\ and\ what\ are\ merge\ methods\ are\ indicated\ throughout\ the\ code.\ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/19/18\r\n
+comment1.params=myMovie
+comment1.target=void\ printMovies(Movie4[])
+comment2.params=x\ low\ high
+comment2.target=void\ sortTitles(Movie4[],\ int,\ int)
+comment3.params=x\ low\ mid\ high
+comment3.target=void\ mergeTitles(Movie4[],\ int,\ int,\ int)
+comment4.params=x\ low\ high
+comment4.target=void\ sortYears(Movie4[],\ int,\ int)
+comment5.params=x\ low\ mid\ high
+comment5.target=void\ mergeYears(Movie4[],\ int,\ int,\ int)
+comment6.params=x\ low\ high
+comment6.target=void\ sortStudios(Movie4[],\ int,\ int)
+comment7.params=x\ low\ mid\ high
+comment7.target=void\ mergeStudios(Movie4[],\ int,\ int,\ int)
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
