@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestMusic
+comment0.text=\r\n\ This\ code\ formats\ the\ Music.java\ code.\ This\ has\ the\ methods\ that\ are\ necessary\ along\ with\ a\ bit\ of\ stylized\ output\!\r\n\ Things\ print\ as\ they\ should\ and\ have\ a\ nice\ message\ at\ the\ end\ of\ it\!\ This\ code\ uses\ the\ sequential\ search\ to\ find\ \r\n\ song\ titles,\ song\ artists\ and\ the\ year\ they\ were\ created\ so\ the\ user\ can\ find\ them\ easily\!\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/23/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
