@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=StudentData
+comment0.text=\r\n\ This\ code\ has\ the\ formulas\ and\ formatting\ of\ the\ information\ from\ the\ \r\n\ TestProgStudentData.java.\ This\ has\ the\ appropriate\ methods;\r\n\ studentData(),\ getFirstName(),\ getLastName(),\ getTestScores(),\ \r\n\ setFirstName(),\ setLastName(),\ setTestScores(),\ setGrade(),\ \r\n\ courseGrade().\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/9/2018\r\n
+comment1.params=fName\ lName\ tScores
+comment1.target=StudentData(java.lang.String,\ java.lang.String,\ double[])
+comment10.params=list
+comment10.target=void\ courseGrade(double[])
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getFirstName()
+comment3.params=
+comment3.target=java.lang.String\ getLastName()
+comment4.params=
+comment4.target=double[]\ getTestScores()
+comment5.params=
+comment5.target=char\ getGrade()
+comment6.params=firstName
+comment6.target=void\ setFirstName(java.lang.String)
+comment7.params=lastName
+comment7.target=void\ setLastName(java.lang.String)
+comment8.params=testScores
+comment8.target=void\ setTestScores(double[])
+comment9.params=grade
+comment9.target=void\ setGrade(char)
+numComments=12

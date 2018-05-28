@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestProgStudentData
+comment0.text=\r\n\ This\ code\ takes\ the\ formulas\ and\ format\ from\ the\ toString\ and\r\n\ prints\ it\ within\ this\ code.\ This\ code\ doesn't\ add\ anything\ special\r\n\ other\ than\ it\ prints\ the\ code\ correctly\ and\ has\ a\ nice\ message\ at\ the\ end\!\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 4/9/2018\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
