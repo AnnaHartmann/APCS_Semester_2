@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestCandidate5
+comment0.text=\r\n\ This\ code\ formats\ the\ candidate\ class\ however\r\n\ uses\ printf\ statements\ and\ arrays.\r\n\ I\ used\ and\ inserted\ the\ insertCandidate\ and\r\n\ insertPosition\ methods.\ The\ output\ prints\ correctly.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/7/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
