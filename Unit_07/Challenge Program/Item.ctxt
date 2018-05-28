@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ This\ code\ creates\ and\ initializes\ all\ the\ instance\ variables.\r\n\ Variables\ such\ as\ price,\ itemID,\ inStore\ and\ itemName\ with\ their\r\n\ appropriate\ data\ types\ (int,\ double\ and\ string).\ \ \r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/20/18\r\n
+comment1.params=itemID\ itemName\ inStore\ Price
+comment1.target=Item(java.lang.String,\ java.lang.String,\ int,\ double)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getItemID()
+comment3.params=itemID
+comment3.target=void\ setItemID(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getItemName()
+comment5.params=itemName
+comment5.target=void\ setItemName(java.lang.String)
+comment6.params=
+comment6.target=int\ getInStore()
+comment7.params=inStore
+comment7.target=void\ setInStore(int)
+comment8.params=
+comment8.target=double\ getPrice()
+comment9.params=price
+comment9.target=void\ setPrice(double)
+numComments=11
