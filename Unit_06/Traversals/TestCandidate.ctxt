@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TestCandidate
+comment0.text=\r\n\ This\ code\ formats\ the\ candidate\ class\ however\r\n\ uses\ printf\ statements\ and\ arrays.\r\n\ However\ I\ couldn't\ get\ the\ output\ for\ the\ \r\n\ candidate,\ votes\ received\ and\ %\ total\ to\ align\ correctly.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/5/18\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=list
+comment2.target=void\ printResults(Candidate[])
+comment3.params=list
+comment3.target=int\ getTotal(Candidate[])
+comment4.params=list
+comment4.target=void\ printVotes(Candidate[])
+numComments=5

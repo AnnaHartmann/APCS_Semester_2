@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Candidate
+comment0.text=\r\n\ This\ class\ does\ as\ it\ should\ \r\n\ so\ that\ way\ the\ first\ parts\ for\ the\r\n\ results\ per\ candidate\ can\ print\ properly.\r\n\ \r\n\ @author\ Annabel\ Hartmann\r\n\ @version\ 3/5/18\r\n
+comment1.params=n\ v
+comment1.target=Candidate(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=int\ getVotes()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
