@@ -1,0 +1,51 @@
+/**
+ * BobSort displays and shows bob's sorting algorithm and shows how fast it sorts arrays!
+ * This code is completed and has similar arrays to InsertionSort and SelectionSort!
+ * It has each step that needs to be done and works properly!
+ * 
+ * @author Annabel Hartmann
+ * @version 4/18/18
+ */
+
+public class BobSort {
+    private DynamicArrayChart chart;
+    
+    private BobSort () {
+        /* Create an array of integers named array with 1-20 elements. 
+         * Element values must be from 1-50. */
+    	int[] array = {30, 20, 46, 7, 13, 28, 45, 32, 34, 47, 24, 12, 4, 6, 48, 29, 39, 17, 31, 2}; //Array created!
+     
+        /* Create a new DynamicArrayChart and assign it to variable chart. */
+    	chart = new DynamicArrayChart("Bob Sort", array, false, 200); //New DynamicArrayChart created!
+     
+        /* Set array to null. */
+    	array = null; //array set to null!
+     
+        /* Call the runSort() method. */
+    	runSort();
+    }
+    
+
+    private void runSort() {
+        /* Implement the Bob Sort algorithm.
+         * All queries and modifications to the original array can be done with
+         * method calls on the chart object. */
+    	boolean done = false;
+        while (!done) {
+            done = true;
+            for (int i = 0; i < chart.getArrayLength() - 1; i++) {
+                int a = chart.getValueForSwap1(i);
+                int b = chart.getValueForSwap2(i + 1);
+                if (a > b) {
+                    chart.swap(i, i + 1);
+                    done = false;
+                }
+            }
+        }
+        chart.setDone(); //created algorithm and inserted queries and modifications!
+    }
+    
+    public static void main(String[] args) {
+        new BobSort();
+    }
+}
